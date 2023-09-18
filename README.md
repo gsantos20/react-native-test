@@ -32,13 +32,20 @@ This project was build using expo, all the documentation can be found at [Expo D
 ## Requirements
 
 * Node - [Node](https://nodejs.org/en/)
-* Expo-Cli - `npm install -g expo-cli`
+* Expo-Cli and Eas-cli - `npm install -g expo-cli eas-cli`
 * Yarn - [Download](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 
 ## Quick start
  
 * Execute `yarn`
 * Start with `yarn start`
+
+## Build APK
+ 
+* Execute `yarn`
+* Start with `yarn build-android`
+  
+> 👨 You can get apk in directory of project.
 
 ### Opening the app on your phone/tablet
 
