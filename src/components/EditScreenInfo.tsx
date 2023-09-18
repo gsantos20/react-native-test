@@ -4,7 +4,7 @@ import { StyleSheet, TouchableOpacity } from 'react-native';
 
 import Colors from '../constants/Colors';
 import { MonoText } from './StyledText';
-import { Text, View } from './Themed';
+import { Text, View } from '../theme';
 
 export default function EditScreenInfo({ path }: { path: string }) {
   return (
@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
     marginLeft: -10,
   },
   getStartedContainer: {
-    alignItems: 'center',
+    alignItems: 'flex-start',
     marginHorizontal: 50,
   },
   homeScreenFilename: {
