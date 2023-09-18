@@ -43,7 +43,7 @@ This project was build using expo, all the documentation can be found at [Expo D
 ## Build APK
  
 * Execute `yarn`
-* Start with `yarn build`
+* Start with `yarn build-android`
   
 > 👨 You can get apk in directory of project.
 
