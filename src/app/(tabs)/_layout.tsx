@@ -10,8 +10,16 @@ export default function TabRoutesLayout(){
         options={{
           title: 'To do List',
           headerStyle: {
-            backgroundColor: THEME.COLORS.GRAY_200,
+            backgroundColor: THEME.COLORS.GRAY_400,
           },
+          headerTintColor: 'white',
+          headerStatusBarHeight: 15,
+          headerTitleStyle: {
+            flex: 1,
+            alignSelf: 'center',
+            fontWeight: 'bold'
+          },
+          headerTitleAlign: 'center',
           tabBarIcon: ({size, color }) => (
             <MaterialIcons name="home" size={size} color={color} />
           )

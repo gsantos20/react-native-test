@@ -9,9 +9,22 @@ export const styles = StyleSheet.create({
     padding: 8,
     gap: 8
   },
-  title: {
-    fontSize: 20,
+  button: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: 52,
+    paddingVertical: 12,
+    paddingHorizontal: 32,
+    borderRadius: 4,
+    elevation: 3,
+    backgroundColor: 'black',
+  },
+  text: {
+    fontSize: 16,
+    lineHeight: 21,
     fontWeight: 'bold',
+    letterSpacing: 0.25,
+    color: 'white',
   },
   separator: {
     marginVertical: 30,
